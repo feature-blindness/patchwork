@@ -1,0 +1,6 @@
+
+Mapping shape_1 <-- shape_4
+Mapping shape_2 <-- shape_5
+Mapping shape_3 <-- shape_1
+Mapping shape_4 <-- shape_3
+Mapping shape_5 <-- shape_2
