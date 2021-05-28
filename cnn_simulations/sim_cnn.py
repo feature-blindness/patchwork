@@ -460,7 +460,7 @@ def analyse_results(experiment, model_name, results_files, analysis_dir, num_see
 run_sims = True # if False, then only analyse (previously collected) results
 exp5 = False # in Exp5, test only on Same condition as trained on only one (non-shape) cue
 model_name = 'resnet' # 'vgg'; 'vgg_bn'; 'resnet'; 'resnet50_trained_on_SIN'; 'alexnet'
-num_epochs = 2 # 20 number of training epochs
+num_epochs = 20 # 20 number of training epochs
 num_seeds = 1 #10 # number of training seeds
 usetrained = True # False # whether or not to use the pretrained model
 learnconv = True # whether or not convolutional layers are frozen
@@ -549,8 +549,7 @@ if run_sims:
         gc.collect()
 
 analysis_dir = os.path.join('.', 'analysis')
+valid_value = 'p20'
 if exp5 == True:
     valid_value = 'p100'
-else:
-    valid_value = 'p20'
 analyse_test_set(experiments, test_set, base_dir, model_name, valid_value, learnconv, analysis_dir, num_seeds, continual_testing, exp5)
