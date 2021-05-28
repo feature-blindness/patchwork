@@ -1,5 +1,5 @@
 # patchwork
-Dataset, code and analysis for experiments and simulations on feature-blindness in humans and CNNs
+Feature-blindness in humans and CNNs.
 
 
 *****************
@@ -36,3 +36,9 @@ Please see `patchwork/cnn_simulations/requirements.txt` for the python packages 
 
 
 ## Human Experiments
+
+### Stimuli
+
+### Script in PsychoPy
+
+### Data and Analysis
