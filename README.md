@@ -1,13 +1,11 @@
 # patchwork
 Feature-blindness in humans and CNNs.
 
-This repository contains code and data for testing how humans select features for categorising objects. We conducted nine experiments that varied the combination of features and the extent to which they predicted the category mapping. Participants (humans and CNNs) learnt to classify the stimuli based on these predictive features. In Experiments 1 to 4, two features independently predicted the category of a stimulus. One of these features was shape and the other feature was the location and colour of a single patch (Experiment 1), the colour of a segment (Experiment 2), the average size of patches (Experiment 3) and the colour of the entire figure (Experiment 4). In Experiment 5 only one feature predicted the category of the stimulus. An example of training and test dataset for each experiment are located in the folder `datasets`. The code to run the simulation on CNNs is located in the folder `cnn_simulations`. The stimuli and data collected for human experiments are located in the folder `human_experiments`.
-
-Here is a demonstration of the behavioural task in Experiment 1:
 ![Movie for Experiment 1](https://github.com/feature-blindness/patchwork/blob/main/human_experiments/Experiment_1.gif)
 
-And here is a demonstration of the behavioural task in Experiment 2:
-![Movie for Experiment 2](https://github.com/feature-blindness/patchwork/blob/main/human_experiments/Experiment_2.gif)
+This repository contains code and data for testing how humans select features for categorising objects. We conducted nine experiments that varied the combination of features and the extent to which they predicted the category mapping. Participants (humans and CNNs) learnt to classify the stimuli based on these predictive features. In Experiments 1 to 4, two features independently predicted the category of a stimulus. One of these features was shape and the other feature was the location and colour of a single patch (Experiment 1), the colour of a segment (Experiment 2), the average size of patches (Experiment 3) and the colour of the entire figure (Experiment 4). In Experiment 5 only one feature predicted the category of the stimulus.
+
+The movie above shows a demonstration of the categorisation task in one of the experiments. An example of training and test dataset for each experiment are located in the folder `datasets`. The code to run the simulation on CNNs is located in the folder `cnn_simulations`. The stimuli and data collected for human experiments are located in the folder `human_experiments`. This directory also contains a movie demonstrating the task in Experiment 2.
 
 ## Datasets
 The folder `datasets` contains an example (single seed) of four type of datasets:
