@@ -38,8 +38,4 @@ Please see `patchwork/cnn_simulations/requirements.txt` for the python packages 
 
 ## Human Experiments
 
-### Stimuli
-
-### Script in PsychoPy
-
-### Data and Analysis
+The folder `patchwork/human_experiments` contains stimuli used to test human participants (`Stimuli` subfolder) and data generated in these experiments (`Data` subfolder). Both stimuli and data are organised into subfolders based on the experiment. See Appendix A (Experimental Details) in the manuscript for details on experimental procedure and data analysis.
