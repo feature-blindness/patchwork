@@ -1,7 +1,16 @@
 # patchwork
 Feature-blindness in humans and CNNs.
 
-![Movie S1 for Experiment 1](https://github.com/feature-blindness/patchwork/blob/main/human_experiments/Experiment_1.mp4)
+<!-- ![Movie S1 for Experiment 1](https://github.com/feature-blindness/patchwork/blob/main/human_experiments/Experiment_1.mp4) -->
+
+**Movie S1 for Experiment 1**
+    
+https://user-images.githubusercontent.com/84446766/138256137-67a7d308-9cab-43df-88cb-84c4f1e9c022.mp4
+
+**Movie S2 for Experiment 2**
+
+https://user-images.githubusercontent.com/84446766/138258363-64b63372-5ffa-4f4b-9d31-9d20f403c30d.mp4
+
 
 This repository contains code and data for testing how humans select features for categorising objects. We conducted nine experiments that varied the combination of features and the extent to which they predicted the category mapping. Participants (humans and CNNs) learnt to classify the stimuli based on these predictive features. In Experiments 1 to 4, two features independently predicted the category of a stimulus. One of these features was shape and the other feature was the location and colour of a single patch (Experiment 1), the colour of a segment (Experiment 2), the average size of patches (Experiment 3) and the colour of the entire figure (Experiment 4). In Experiment 5 only one feature predicted the category of the stimulus.
 
